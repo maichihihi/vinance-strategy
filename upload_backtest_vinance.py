@@ -63,4 +63,5 @@ print(data_array)
 #  {'strategy': 10, 'date': '20160331', 'accumulated_profit': 1.84},
 #  {'strategy': 10, 'date': '20160429', 'accumulated_profit': 2.12}]
 
+# Uncomment below line to send backtest data: 
 # import_response = post_rest(url='http://172.31.32.110/back-test-data/upload', body=data_array, headers={})
