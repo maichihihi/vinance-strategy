@@ -1,16 +1,15 @@
 # vinance-strategy
 # This is the manual for AI advisor
-```
-1. Create strategy
 
+**1. Create strategy**
+```
 - To create strategy, we go to: https://vinance.vn/content-admin/strategy
 - Fill out the form to create new strategy
 - Strategy id is taken from the url after being created. 
-
 Eg: vinance.vn/strategy/10 → strategy id = 10
 ```
+**2. Upload backtest data**
 ```
-2. Upload backtest data
 - Api url: http://172.31.32.110/back-test-data/upload (need VPN)
 - Alternative url: https://vinance.vn/back-test-data/upload (no need VPN)
 - Method : POST
@@ -25,22 +24,25 @@ Eg: vinance.vn/strategy/10 → strategy id = 10
  {'strategy': 10, 'date': '20150529', 'accumulated_profit': 1.23},
  {'strategy': 10, 'date': '20150630', 'accumulated_profit': 1.26},
  {'strategy': 10, 'date': '20150731', 'accumulated_profit': 1.26}]
-```
 
 ```
-3. Send signals
+**3. Send signals**
+```
 - Api url: http://172.31.32.110/signals (need VPN)
 - Alternative url: https://vinance.vn/signals (no need VPN)
 - Method : POST
 - Header : {}
 - data : {"strategyId": "10", "sellBuyType": "SELL", "code": "AMD"}
 
-*Note : each signal contains only 1 code
+*Note : 
+- each signal contains only 1 code
+- signals have to send 1 day after creating new strategy, otherwise profit will be miscalculated
+
 **Python code example is availabe for uploading backtest and signals**
 
 ```
+**4. Subscribe and receive signals from telegram**
 ```
-4. Subscribe and receive signals from telegram
 - Step 1: Create your Telegram username in the app
 - Step 2: Find username **VinanceSignalBot** in Telegram, start conversation
 - Step 3: Log in to your account in vinance.vn
