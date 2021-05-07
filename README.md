@@ -37,7 +37,7 @@ Eg: vinance.vn/strategy/10 → strategy id = 10
 *Note : 
 - each signal contains only 1 code
 - signals have to send 1 day after creating new strategy, otherwise profit will be miscalculated
-
+- If we use Winform C#, we should use .NET Framework 4.6
 **Python code example is availabe for uploading backtest and signals**
 
 ```
