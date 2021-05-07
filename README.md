@@ -10,8 +10,8 @@ Eg: vinance.vn/strategy/10 → strategy id = 10
 ```
 **2. Upload backtest data**
 ```
-- Api url: http://172.31.32.110/back-test-data/upload (need VPN)
-- Alternative url: https://vinance.vn/back-test-data/upload (no need VPN)
+- Api url: https://vinance.vn/back-test-data/upload (no need VPN)
+- Alternative url: http://172.31.32.110/back-test-data/upload (need VPN)
 - Method : POST
 - Headers: {}
 - json (the data upload is in this form):  
@@ -28,8 +28,8 @@ Eg: vinance.vn/strategy/10 → strategy id = 10
 ```
 **3. Send signals**
 ```
-- Api url: http://172.31.32.110/signals (need VPN)
-- Alternative url: https://vinance.vn/signals (no need VPN)
+- Api url: https://vinance.vn/signals (no need VPN)
+- Alternative url: http://172.31.32.110/signals (need VPN)
 - Method : POST
 - Header : {}
 - data : {"strategyId": "10", "sellBuyType": "SELL", "code": "AMD"}
