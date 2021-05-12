@@ -41,12 +41,20 @@ Eg: vinance.vn/strategy/10 → strategy id = 10
 **Python code example is availabe for uploading backtest and signals**
 
 ```
-**4. Subscribe and receive signals from telegram**
+**4. Subscribe and receive signals from Telegram**
 ```
-- Step 1: Create your Telegram username in the app
+- Step 1: Create a Telegram account and username in the app
 - Step 2: Find username **VinanceSignalBot** in Telegram, start conversation
 - Step 3: Log in to your account in vinance.vn
 - Step 4: Go to profile settings, fill in your Telegram Username.
 - Step 5: Click button **FOLLOW** to follow any strateies you want in AI Advisor. New signals will be sent to you via Telegram message
 *Note: You can choose to unfollow a strategy to stop receiving new signals from that strategy
+
+In Vietnamese:
+- Bước 1: Tạo một tài khoản và username trên Telegram
+- Bước 2: Tìm kiếm tài khoản **VinanceSignalBot** trên Telegram và bắt đầu cuộc trò chuyện
+- Bước 3: Đăng nhập vào tài khoản của bạn trên vinance.vn
+- Bước 4: Vào mục thông tin cá nhân và điền username Telegram của bạn
+- Bước 5: Bấm nút **Theo dõi** những chiến thuật bạn muốn và bạn có thể nhận được tín hiệu đầu tư qua Telegram
+*Chú ý: Bạn có thể bỏ theo dõi chiến thuật nếu muốn ngừng nhận tín hiệu
 ```
